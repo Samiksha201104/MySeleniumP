@@ -6,7 +6,7 @@ maven 'Maven'
 stages{
 stage('Checkout'){
 steps{
-get branch:'master',url:'https://github.com/Samiksha201104/MySeleniumP.git'
+git branch:'master',url:'https://github.com/Samiksha201104/MySeleniumP.git'
 }}
 stage('Build')
 {
